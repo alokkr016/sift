@@ -68,3 +68,11 @@ Near-duplicates are photos whose hashes differ by at most 8 bits. Under about 8,
 ## Libraries
 
 Perceptual hashing uses [imagehash](https://github.com/JohannesBuchner/imagehash) (BSD) and Pillow. The ideas for culling and duplicates are informed by local tools such as Lap and picurate. Those projects are GPL-3, so this app does not copy their code.
+
+## Contributing
+
+Contributions are welcome. Open a pull request against `main`. Run the tests before you send it. Your changes are accepted under the MIT License.
+
+## License
+
+Sift is released under the [MIT License](LICENSE). You can use, change, and share it, including in your own projects.
