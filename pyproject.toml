@@ -1,0 +1,23 @@
+[project]
+name = "sift"
+version = "0.2.0"
+description = "Local photo index that learns which pictures you keep."
+requires-python = ">=3.11"
+dependencies = [
+  "pillow>=10",
+  "imagehash>=4.3",
+  "pywebview>=5",
+  "pyobjc-framework-Cocoa>=10",
+  "pyobjc-framework-Vision>=10",
+  "numpy>=1.26",
+]
+
+[project.scripts]
+sift = "sift.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sift*"]
