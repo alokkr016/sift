@@ -267,6 +267,37 @@ function Hero() {
   )
 }
 
+function Film() {
+  return (
+    <section className="section" id="film">
+      <div className="section-head">
+        <p className="eyebrow">Launch film</p>
+        <h2>
+          Twenty-one seconds of <span className="underlined">Sift</span>
+        </h2>
+        <p className="section-sub">
+          Music, motion, and the review rhythm — one keypress at a time.
+        </p>
+      </div>
+      <div className="film-card">
+        <video
+          controls
+          playsInline
+          preload="metadata"
+          poster="launch-poster.jpg"
+          src="launch.mp4"
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p className="film-credit">
+        Made locally with the <code>/brag</code> skill · Music: Sascha Ende,
+        ende.app (CC BY 4.0)
+      </p>
+    </section>
+  )
+}
+
 function How() {
   return (
     <section className="section" id="how">
@@ -433,6 +464,7 @@ export default function App() {
       <Nav />
       <main>
         <Hero />
+        <Film />
         <How />
         <Features />
         <Privacy />
