@@ -452,7 +452,12 @@ function Footer() {
             MIT License
           </a>
         </div>
-        <span className="footer-note">Runs entirely on your Mac.</span>
+        <div className="footer-right">
+          <span className="footer-note">Runs entirely on your Mac.</span>
+          <a className="footer-url" href="https://alokkumar.tech/sift">
+            alokumar.tech/sift
+          </a>
+        </div>
       </div>
     </footer>
   )
