@@ -2,6 +2,7 @@
 name = "sift"
 version = "0.2.0"
 description = "Local photo index that learns which pictures you keep."
+license = { file = "LICENSE" }
 requires-python = ">=3.11"
 dependencies = [
   "pillow>=10",
